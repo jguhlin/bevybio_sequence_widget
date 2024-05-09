@@ -1,0 +1,8 @@
+[package]
+name = "bevybio_sequence_widget"
+version = "0.1.0"
+edition = "2021"
+license = "MIT or Apache-2.0"
+
+[dependencies]
+bevy = { version = "0.13", default-features = false, features = ["bevy_render", "bevy_text", "default_font"] }
